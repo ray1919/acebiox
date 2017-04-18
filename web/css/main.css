@@ -1,0 +1,28 @@
+.footer {
+    height: 200px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.glyphicon {
+    font-size: 30px;
+    padding-right: 3px;
+}
+
+nav strong {
+    color: #b92c28;
+    font-size: 24px;
+}
+
+.main-row {
+    padding-top: 70px;
+}
+
+.nav-content{
+    padding-top: 12px;
+}
+
+.affix {
+    top:70px;
+}
