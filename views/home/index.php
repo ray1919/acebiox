@@ -74,20 +74,72 @@ $this->title = '境象生物 AcebioX';
      </div>
 </div>
 
-<div class="row row-content">
-    <div class="col-xs-12 col-sm-3">
+<!-- We will make a simple accordian with hover effects 
+The markup will have a list with images and the titles
+http://bootsnipp.com/snippets/33Q1o -->
+<div class="row">
+    <div class="hidden-xs col-sm-12">
+        <div class="accordian">
+    <ul>
+		<li>
+			<div class="image_title">
+				<a href="#"><h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
+                    <p>qPCR 加样就上机</p>
+                </a>
+			</div>
+			<a href="#">
+				<img src="/img/home/index/slider1.jpg"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#"><h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
+                    <p>高通量qPCR 加样就上机</p>
+                </a>
+			</div>
+			<a href="#">
+				<img src="/img/home/index/slider2.jpg"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#"><h4>InstantPCRservice<sup class="fa fa-trademark"></sup></h4>
+                    <p>qPCR服务 这样就出结果</p>
+                </a>
+			</div>
+			<a href="#">
+				<img src="/img/home/index/slider3.jpg"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#"><h4>AceSNP<sup class="fa fa-trademark"></sup></h4>
+                    <p>SNP分型，行业最优性价比</p>
+                </a>
+			</div>
+			<a href="#">
+				<img src="/img/home/index/slider4.jpg"/>
+			</a>
+		</li>
+	</ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
         <p>qPCR 加样就上机</p>
     </div>
-    <div class="col-xs-12 col-sm-3">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
         <p>高通量qPCR 加样就上机</p>       
     </div>
-    <div class="col-xs-12 col-sm-3">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <h4>InstantPCRservice<sup class="fa fa-trademark"></sup></h4>
         <p>qPCR服务 这样就出结果</p>
     </div>
-    <div class="col-xs-12 col-sm-3">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
         <h4>AceSNP<sup class="fa fa-trademark"></sup></h4>
         <p>SNP分型，行业最优性价比</p>
     </div>
@@ -113,7 +165,7 @@ $this->title = '境象生物 AcebioX';
                 <h4>技术支持</h4>
             </div>
             <div class="media-body">
-                <p>7&times;24服务，用心为您</p>
+                <p>7&times;24小时服务，用心为您</p>
                 <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
             </div>
         </div>
@@ -125,7 +177,7 @@ $this->title = '境象生物 AcebioX';
                 <h4>与我们互动</h4>
             </div>
             <div class="media-body">
-                <p>365天尽我们所能，全新为您</p>
+                <p>365天尽我们所能，全心为您</p>
                 <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
             </div>
         </div>
