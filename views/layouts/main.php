@@ -26,28 +26,49 @@ AppAsset::register($this);
     <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="row">
-            <div class="col-xs-6 col-sm-2">
-                <a href="/"><img src="/img/home/logo-3.gif " height="50px"></a>
-            </div>
-            <div class="hidden-xs col-sm-5 nav-content">
-                <form class="nav-form" role="search">
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <p style="padding:15px;"></p>
+                        </div>
                     </div>
-                  </div>
-                </form>
+                    <div class="row">
+                <div class="col-xs-6 col-sm-5">
+                    <a href="/"><img src="/img/home/logo-3.gif " height="50px"></a>
+                    <span class="slogan text-right"><b>Gene Analysis Expert</b></span>
+                </div>
+                <div class="hidden-xs col-sm-7 nav-content">
+                    <form class="nav-form" role="search">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                      </div>
+                    </form>
 
-            </div>
-            <div class="col-xs-4 col-xs-push-1 col-sm-2 col-sm-push-3 nav-content">
-                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
-                <a data-toggle="modal" data-target="#loginModal">
-                    <span class="glyphicon glyphicon-log-in"></span><span class="hidden-xs"> Login</span></a>
-            </div>
-            <div class="hidden-xs col-sm-3 col-sm-pull-2 nav-content">
-                <strong><span class="glyphicon glyphicon-phone-alt"></span>021-12355678</strong>
-            </div>
+                </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-12 nav-content">
+                            <strong>免费人工电话 <span class="glyphicon glyphicon-phone-alt"></span>021-12355678</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 nav-content">
+                            <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#registerModal">
+                                <span class="glyphicon glyphicon-user"></span><span class="hidden-sm"> 注 册</span></button>
+                            <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#loginModal">
+                                <span class="glyphicon glyphicon-log-in"></span><span class="hidden-sm"> 登 陆</span></button>
+                            <button type="button" class="btn btn-info btn-md"><span class="glyphicon glyphicon-shopping-cart"></span><span class="hidden-sm"> 购物车</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs col-sm-1">
+                    <img src="/img/home/QR.jpg" height="100px">
+                </div>
             </div>
         </div>
     </nav>
@@ -172,7 +193,7 @@ AppAsset::register($this);
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-xs-12 col-sm-3">
                 <form class="form-group" role="subscribe">
                     <label for="subscribeEmail">订阅优惠推广</label>
                   <div class="input-group">
@@ -183,28 +204,31 @@ AppAsset::register($this);
                   </div>
                 </form>
             </div>
-            <div class="col-sm-3">
-                <ul>
-                    <li><a href="#">了解我们</a></li>
-                    <li><a href="#">职业机会</a></li>
-                    <li><a href="#">公司新闻</a></li>
-                    <li><a href="#">联系我们</a></li>
+            <div class="col-xs-4 col-sm-3">
+                <ul class="list-group">
+                    <li class="list-group-item disabled"><strong>了解我们</strong></li>
+                    <li class="list-group-item"><a href="#">关于我们</a></li>
+                    <li class="list-group-item"><a href="#">职业机会</a></li>
+                    <li class="list-group-item"><a href="#">公司新闻</a></li>
+                    <li class="list-group-item"><a href="#">联系我们</a></li>
+                    <li class="list-group-item"><a href="#">社会责任</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="col-xs-4 col-sm-3">
                 <ul>
-                    <li><a href="#">商务合作</a></li>
-                    <li><a href="#">媒体/广告</a></li>
-                    <li><a href="#">意见/建议</a></li>
-                    <li><a href="#">社会责任</a></li>
+                    <li class="list-group-item disabled"><strong>与我合作</strong></li>
+                    <li class="list-group-item"><a href="#">商务合作</a></li>
+                    <li class="list-group-item"><a href="#">媒体/广告</a></li>
+                    <li class="list-group-item"><a href="#">意见/建议</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="col-xs-4 col-sm-3">
                 <ul>
-                    <li><a href="#">意见/建议</a></li>
-                    <li><a href="#">运费政策</a></li>
-                    <li><a href="#">退换货政策</a></li>
-                    <li><a href="#">赞助</a></li>
+                    <li class="list-group-item disabled"><strong>让我们帮助您</strong></li>
+                    <li class="list-group-item"><a href="#">账户</a></li>
+                    <li class="list-group-item"><a href="#">运费政策</a></li>
+                    <li class="list-group-item"><a href="#">退换货政策</a></li>
+                    <li class="list-group-item"><a href="#">赞助</a></li>
                 </ul>
             </div>
         </div>
