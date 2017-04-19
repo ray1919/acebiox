@@ -3,7 +3,7 @@
 }
 
 .carousel-indicators .active {
-    background-color: #ffff99 !important;
+    background-color: #4cb034 !important;
 }
 
 #homecarousel img{
@@ -20,4 +20,19 @@
 
 .row-content .media-heading .fa {
     font-size: 80px;
+}
+
+.carousel .carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel .carousel-caption {
+    color: #20398a;
+    text-shadow: 2px 2px #f5f5f5;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-size: 120%;
 }

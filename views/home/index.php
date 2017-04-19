@@ -35,19 +35,16 @@ $this->title = '境象生物 AcebioX';
                  <img class="img-responsive"
                   src="img/home/home_0.gif" alt="Uthappizza">
                  <div class="carousel-caption">
-                 <h2>Uthappizza  <span class="label label-danger">Hot</span> <span class="badge">$14.99</span></h2>
-                 <p>A unique combination of Indian Uthappam (pancake) and
-                   Italian pizza, topped with Cerignola olives, ripe vine
-                   cherry tomatoes, Vidalia onion, Guntur chillies and
-                   Buffalo Paneer.</p>
+                 <h2>Gene Expression PCR Array <span class="label label-danger">Hot</span> <span class="badge">$14.99</span></h2>
+                 <p>楚天生物基因表达PCR芯片同时对88个与某一主题相关的基因进行表达分析。产品采用SYBR实时荧光PCR方法。基因专一性引物已分别固定在96孔PCR板中。</p>
                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                  </div>
              </div>
              <div class="item">
                  <img class="media-object img-thumbnail" src="img/home/home_2.gif" alt="Buffet">
                  <div class="carousel-caption">
-                 <h2>Weekend Grand Buffet <span class="label label-danger label-xs">New</span></h2>
-                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                 <h2>SNP分型 <span class="label label-danger label-xs">New</span></h2>
+                 <p>楚天生物SNP分型产品采用限制性内切酶片段多样性(RFLP)原理进行SNP分型。该法常用于由于SNP的存在导致限制性内切酶图谱发生变化的SNP分型。</p>
                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                  </div>
              </div>
@@ -55,10 +52,8 @@ $this->title = '境象生物 AcebioX';
                  <img class="media-object img-thumbnail"
                   src="img/home/home_1.gif" alt="Alberto Somayya">
                  <div class="carousel-caption">
-                 <p>Award winning three-star Michelin chef with wide
-                  International experience having worked closely with
-                  whos-who in the culinary world, he specializes in
-                   creating mouthwatering Indo-Italian fusion experiences.
+                 <h2>表达谱PCR芯片 <span class="label label-danger">Hot</span></h2>
+                 <p>每一个PCR芯片设有6个参比基因（看家基因）对照，以方便您选择在您的实验或生理条件下稳定表达的参比基因，用于基因表达相对定量。
                   </p>
                  <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                  </div>
@@ -137,8 +132,3 @@ $this->title = '境象生物 AcebioX';
     </div>
 
 </div>
-<p>
-    <i class="fa fa-google-plus"></i>
-    You may change the content of this page by modifying
-    the file <code><?= __FILE__; ?></code>.
-</p>

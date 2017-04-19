@@ -20,14 +20,14 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="0">
+<body>
 <?php $this->beginBody() ?>
 
     <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="row">
             <div class="col-xs-6 col-sm-2">
-                <img src="/img/home/logo-3.gif " height="50px">
+                <a href="/"><img src="/img/home/logo-3.gif " height="50px"></a>
             </div>
             <div class="hidden-xs col-sm-5 nav-content">
                 <form class="nav-form" role="search">
@@ -59,7 +59,7 @@ AppAsset::register($this);
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Login </h4>
+                <h4 class="modal-title">登陆</h4>
             </div>
             <div class="modal-body">
 
@@ -78,9 +78,56 @@ AppAsset::register($this);
                         </label>
                     </div>
                     <p></p>
+                    <div class="form-group">
                     <button type="submit" class="btn btn-info btn-sm">登陆</button>
                     <button type="button" class="btn btn-default btn-sm"
                        data-dismiss="modal">取消</button>
+                    </div>
+                    <div class="text-right">
+                        <label class="text-info">还没有账号，点击注册</label>
+                        <button type="button" class="btn btn-info btn-sm"  data-toggle="modal" data-target="#registerModal">注册</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">注册</h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="re-password">Repeat Password</label>
+                        <input type="password" class="form-control" id="re-password" name="re-password" placeholder="Repeat Password">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> 订阅我们的优惠信息
+                        </label>
+                    </div>
+                    <p></p>
+                    <div class="form-group">
+                    <button type="submit" class="btn btn-info btn-sm">注册</button>
+                    <button type="button" class="btn btn-default btn-sm"
+                       data-dismiss="modal">取消</button>
+                    </div>
                 </form>
 
             </div>
@@ -90,13 +137,25 @@ AppAsset::register($this);
 
     <div class="container">
         <div class="row main-row">
-        <nav class="hidden-xs col-sm-3" id="myScrollspy">
-            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="70">
-                <li><a>Our History List</a></li>
-                <li><a href="#history">Our History</a></li>
-                <li><a href="#corporate">Corporate Tablist</a></li>
-                <li><a href="#corporate1">Corporate Accordion</a></li>
-                <li><a href="#facts">Facts</a></li>
+        <nav class="hidden-xs col-sm-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="heading"><a>Research Products 科研产品</a></li>
+                <li><a href="#">InstantPCR<sup class="fa fa-trademark"></sup> 加样就上机</a></li>
+                <li><a href="#">InstantPCRarray<sup class="fa fa-trademark"></sup> 高通量qPCR 加样就上机</a></li>
+                <li class="heading"><a>Research Services 科研服务</a></li>
+                <li><a href="#">InstantPCRservice<sup class="fa fa-trademark"></sup> qPCR服务 这样就出结果</a></li>
+                <li><a href="#">AceSNP<sup class="fa fa-trademark"></sup> SNP基因分型</a></li>
+                <li><a href="#">More Research Services 更多科研服务</a></li>
+                <li class="heading"><a>Application Products 应用产品</a></li>
+                <li><a href="#">Brand KitA</a></li>
+                <li><a href="#">Brand KitB</a></li>
+                <li class="heading"><a>Application Services 应用服务</a></li>
+                <li><a href="#">Brand ServiceA</a></li>
+                <li><a href="#">Brand ServiceB</a></li>
+                <li><a href="#">More Application Products &amp; Services 更多应用产品与服务</a></li>
+                <li class="heading"><a>Health Products 健康产品</a></li>
+                <li class="heading"><a>Health Services 健康服务</a></li>
+                <li><a href="#">More Health Products &amp; Services 更多健康产品和服务</a></li>
             </ul>
         </nav>
 
@@ -112,9 +171,44 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <div class="row">
+            <div class="col-sm-3">
+                <form class="form-group" role="subscribe">
+                    <label for="subscribeEmail">订阅优惠推广</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email" name="sub_email" id="sub_email">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="fa fa-envelope"></i></button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="#">了解我们</a></li>
+                    <li><a href="#">职业机会</a></li>
+                    <li><a href="#">公司新闻</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="#">商务合作</a></li>
+                    <li><a href="#">媒体/广告</a></li>
+                    <li><a href="#">意见/建议</a></li>
+                    <li><a href="#">社会责任</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="#">意见/建议</a></li>
+                    <li><a href="#">运费政策</a></li>
+                    <li><a href="#">退换货政策</a></li>
+                    <li><a href="#">赞助</a></li>
+                </ul>
+            </div>
+        </div>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
 

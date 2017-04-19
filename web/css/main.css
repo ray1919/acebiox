@@ -23,6 +23,19 @@ nav strong {
     padding-top: 12px;
 }
 
+/*
 .affix {
     top:70px;
+}*/
+
+nav.navbar-fixed-top {
+    background-color: white;
+}
+
+li.heading {
+    background-color: antiquewhite;
+}
+
+#loginModal label {
+    font-weight: normal !important;
 }
