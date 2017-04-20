@@ -166,17 +166,17 @@ AppAsset::register($this);
                 <li class="heading"><a>Research Services 科研服务</a></li>
                 <li><a href="#">InstantPCRservice<sup class="fa fa-trademark"></sup> qPCR服务 这样就出结果</a></li>
                 <li><a href="#">AceSNP<sup class="fa fa-trademark"></sup> SNP基因分型</a></li>
-                <li><a href="#">More Research Services 更多科研服务</a></li>
+                <li><a href="#">More Research Services 更多科研产品与服务</a></li>
                 <li class="heading"><a>Application Products 应用产品</a></li>
                 <li><a href="#">Brand KitA</a></li>
                 <li><a href="#">Brand KitB</a></li>
                 <li class="heading"><a>Application Services 应用服务</a></li>
                 <li><a href="#">Brand ServiceA</a></li>
                 <li><a href="#">Brand ServiceB</a></li>
-                <li><a href="#">More Application Products &amp; Services 更多应用产品与服务</a></li>
+                <li><a href="#">More Application Products &amp; Services 更多</a></li>
                 <li class="heading"><a>Health Products 健康产品</a></li>
                 <li class="heading"><a>Health Services 健康服务</a></li>
-                <li><a href="#">More Health Products &amp; Services 更多健康产品和服务</a></li>
+                <li><a href="#">More Health Products &amp; Services 更多</a></li>
             </ul>
         </nav>
 

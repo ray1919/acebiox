@@ -7,7 +7,7 @@
 }
 
 #homecarousel img{
-    height: auto;
+    height: 270px;
     width: auto;
 }
 
@@ -38,6 +38,16 @@
     font-size: 120%;
 }
 
+nav.navbar{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+nav.navbar ul li a {
+    padding: 5px;
+}
+
+/* accordian slider css start here.*/
 
 /*Time to apply widths for accordian to work
 Width of image = 640px
@@ -54,7 +64,8 @@ default width = 800/5 = 160px; -> 274
 }
 
 .accordian {
-	width: 1095px; height: auto;
+	width: 1095px;
+    height: 270px;
 	overflow: hidden;
 
 	/*Time for some styling*/
@@ -118,3 +129,5 @@ default width = 800/5 = 160px; -> 274
 	padding: 20px;
 	font-size: 16px;
 }
+
+/* accordian slider end here.*/

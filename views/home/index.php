@@ -5,8 +5,8 @@ use app\assets\HomeAsset;
 HomeAsset::register($this);
 $this->title = '境象生物 AcebioX';
 ?>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
+<nav class="navbar">
+    <div class="container-fluid nav-home">
         <ul class="nav navbar-nav">
             <li><a href="#">Research 科研</a></li>
             <li><a href="#">Application 应用</a></li>

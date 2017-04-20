@@ -23,7 +23,7 @@ nav strong {
 }
 
 .main-row {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .nav-content{
@@ -37,6 +37,7 @@ nav strong {
 
 nav.navbar-fixed-top {
     background-color: white;
+    border-bottom: 1px solid #ddd;
 }
 
 li.heading {
