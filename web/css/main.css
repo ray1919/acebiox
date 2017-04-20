@@ -31,9 +31,17 @@ nav strong {
 }
 
 /*
-.affix {
-    top:70px;
+.search-form {
+    padding-left: 25px;
 }*/
+
+.nav-home {
+    padding-left: 0px;
+}
+
+.nav-home ul li a {
+    padding: 2px;
+}
 
 nav.navbar-fixed-top {
     background-color: white;

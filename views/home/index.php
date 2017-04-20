@@ -5,18 +5,6 @@ use app\assets\HomeAsset;
 HomeAsset::register($this);
 $this->title = '境象生物 AcebioX';
 ?>
-<nav class="navbar">
-    <div class="container-fluid nav-home">
-        <ul class="nav navbar-nav">
-            <li><a href="#">Research 科研</a></li>
-            <li><a href="#">Application 应用</a></li>
-            <li><a href="#">Health 健康</a></li>
-            <li><a href="#">Resource 资源</a></li>
-            <li><a href="#">Activity 活动</a></li>
-            <li><a href="#">About Us 关于我们</a></li>
-        </ul>
-    </div>
-</nav>
 
 <div class="row">
     <div class="col-xs-12">
@@ -84,7 +72,7 @@ http://bootsnipp.com/snippets/33Q1o -->
 		<li>
 			<div class="image_title">
 				<a href="#"><h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
-                    <p>qPCR 加样就上机</p>
+                    <p>qPCR，加样就上机</p>
                 </a>
 			</div>
 			<a href="#">
@@ -94,7 +82,7 @@ http://bootsnipp.com/snippets/33Q1o -->
 		<li>
 			<div class="image_title">
 				<a href="#"><h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
-                    <p>高通量qPCR 加样就上机</p>
+                    <p>高通量qPCR，加样就上机</p>
                 </a>
 			</div>
 			<a href="#">
@@ -104,7 +92,7 @@ http://bootsnipp.com/snippets/33Q1o -->
 		<li>
 			<div class="image_title">
 				<a href="#"><h4>InstantPCRservice<sup class="fa fa-trademark"></sup></h4>
-                    <p>qPCR服务 这样就出结果</p>
+                    <p>qPCR服务，这样就出结果</p>
                 </a>
 			</div>
 			<a href="#">
