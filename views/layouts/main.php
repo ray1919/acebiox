@@ -26,11 +26,11 @@ AppAsset::register($this);
 <nav class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <div class="row">
-                    <div class="col-xs-6 col-sm-12">
+                    <div class="col-sm-12">
                         <a href="/"><img src="/img/home/logo-3.gif " height="50px"></a>
-                        <b class="text-nowrap">Gene Analysis Expert</b>
+                        <b class="hidden-xs text-nowrap">Gene Analysis Expert</b>
                     </div>
                 </div>
                 <div class="row">
@@ -39,9 +39,9 @@ AppAsset::register($this);
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5">
+            <div class="hidden-xs col-sm-5">
                 <div class="row">
-                   <div class="hidden-xs col-sm-12 nav-content">
+                   <div class="col-sm-12 nav-content">
                         <form class="nav-form search-form" role="search">
                           <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
@@ -54,7 +54,7 @@ AppAsset::register($this);
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12">
+                    <div class="col-sm-12">
                         <nav class="navbar">
                             <div class="nav-home nav-content">
                                 <ul class="nav navbar-nav">
@@ -69,19 +69,19 @@ AppAsset::register($this);
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-xs-6 col-sm-3">
                 <div class="row">
                      <div class="col-sm-12 nav-content">
-                        <strong>免费人工电话 <span class="glyphicon glyphicon-phone-alt"></span>021-12355678</strong>
+                        <strong><i class="hidden-xs">免费人工电话 </i><span class="glyphicon glyphicon-phone-alt"></span>400-12355678</strong>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nav-content">
                         <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#registerModal">
-                            <span class="glyphicon glyphicon-user"></span><span class="hidden-sm"> 注 册</span></button>
+                            <span class="glyphicon glyphicon-user"></span><span class="hidden-xs hidden-sm"> 注 册</span></button>
                         <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#loginModal">
-                            <span class="glyphicon glyphicon-log-in"></span><span class="hidden-sm"> 登 陆</span></button>
-                        <button type="button" class="btn btn-info btn-md"><span class="glyphicon glyphicon-shopping-cart"></span><span class="hidden-sm"> 购物车</span></button>
+                            <span class="glyphicon glyphicon-log-in"></span><span class="hidden-xs hidden-sm"> 登 陆</span></button>
+                        <button type="button" class="hidden btn btn-info btn-md"><span class="glyphicon glyphicon-shopping-cart"></span><span class="hidden-sm"> 购物车</span></button>
                     </div>
                 </div>
             </div>
