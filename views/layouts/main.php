@@ -77,12 +77,16 @@ AppAsset::register($this);
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nav-content">
-                        <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#registerModal">
-                            <span class="glyphicon glyphicon-user"></span><span class="hidden-xs hidden-sm"> 注 册</span></button>
-                        <button type="button" class="btn btn-warning btn-md" data-toggle="modal" data-target="#loginModal">
-                            <span class="glyphicon glyphicon-log-in"></span><span class="hidden-xs hidden-sm"> 登 陆</span></button>
-                        <button type="button" class="hidden btn btn-info btn-md"><span class="glyphicon glyphicon-shopping-cart"></span><span class="hidden-sm"> 购物车</span></button>
+                        <?php if (Yii::$app->user->isGuest): ?>
+                        <button type="button" class="btn btn-default btn-md"><a href="/user/security/login"><span class="glyphicon glyphicon-log-in"></span><span class="hidden-xs hidden-sm"> 登 陆</span></a></button>
+                        <button type="button" class="btn btn-default btn-md"><a href="/user/registration/register"><span class="glyphicon glyphicon-user"></span><span class="hidden-xs hidden-sm"> 注 册</span></a></button>
+                        <?php else: ?>
+                        <button type="button" class="btn btn-default btn-md"><a href="/user/settings/profile"><span class="glyphicon glyphicon-user"></span><span class="hidden-xs hidden-sm"> 账 户</span></a></button>
+                        <button type="button" class="btn btn-default btn-md"><a href="/user/security/logout" data-method="post"><span class="glyphicon glyphicon-log-out"></span><span class="hidden-xs hidden-sm"> 注 销</span></a></button>
+
+                        <?php endif ?>
                     </div>
+
                 </div>
             </div>
             <div class="hidden-xs col-sm-1">

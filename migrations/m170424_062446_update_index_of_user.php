@@ -2,17 +2,17 @@
 
 use yii\db\Migration;
 
-class m170424_055826_add_new_field_to_user extends Migration
+class m170424_062446_update_index_of_user extends Migration
 {
     public function up()
     {
-
+        $this->dropIndex('user_unique_username', '{{%user}}');
     }
 
     public function down()
     {
-        echo "m170424_055826_add_new_field_to_user cannot be reverted.\n";
-
+        echo "m170424_062446_update_index_of_user cannot be reverted.\n";
+        $this->createIndex('user_unique_username', '{{%user}}', 'username', true);
         return false;
     }
 

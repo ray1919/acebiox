@@ -52,17 +52,29 @@ $config = [
             'rules' => [
             ],
         ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@dektrium/user/views' => '@app/views/user',
+                ],
+            ],
+        ],
     ],
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
             'mailer' => [
-                'sender'                => 'acebiox@126.com', // or ['no-reply@myhost.com' => 'Sender name']
+                'sender'                => ['acebiox@126.com' => '境象生物'], // or ['no-reply@myhost.com' => 'Sender name']
                 'welcomeSubject'        => 'Welcome subject',
                 'confirmationSubject'   => 'Confirmation subject',
                 'reconfirmationSubject' => 'Email change subject',
                 'recoverySubject'       => 'Recovery subject',
                 ],
+            'modelMap' => [
+                'RegistrationForm' => 'app\models\RegistrationForm',
+                'LoginForm' => 'app\models\LoginForm',
+                'User' => 'app\models\User',
+            ],
        ],
     ],
     'defaultRoute' => 'home',
@@ -75,7 +87,8 @@ if (YII_ENV_DEV) {
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
+        'allowedIPs' => ['127.0.0.1', '::1', '192.168.1.*'],
+        'traceLine' => '<a href="phpstorm://open?url={file}&line={line}">{file}:{line}</a>',
     ];
 
     $config['bootstrap'][] = 'gii';
