@@ -26,6 +26,7 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'app\assets\FontAwesomeAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
         // 'app\assets\TypeaheadAsset',
     ];
 }

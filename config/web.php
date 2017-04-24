@@ -14,10 +14,10 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
+        /*'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
-        ],
+        ],*/
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -26,7 +26,15 @@ $config = [
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
-            'useFileTransport' => true,
+            'useFileTransport' => false,
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'smtp.126.com',
+                'username' => 'acebiox@126.com',
+                'password' => 'sEnDmAil8',
+                'port' => '25',
+                'encryption' => 'tls', // tls
+                            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -44,6 +52,18 @@ $config = [
             'rules' => [
             ],
         ],
+    ],
+    'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+            'mailer' => [
+                'sender'                => 'acebiox@126.com', // or ['no-reply@myhost.com' => 'Sender name']
+                'welcomeSubject'        => 'Welcome subject',
+                'confirmationSubject'   => 'Confirmation subject',
+                'reconfirmationSubject' => 'Email change subject',
+                'recoverySubject'       => 'Recovery subject',
+                ],
+       ],
     ],
     'defaultRoute' => 'home',
     'params' => $params,

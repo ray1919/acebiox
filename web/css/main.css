@@ -54,3 +54,15 @@ li.heading {
 #loginModal label {
     font-weight: normal !important;
 }
+
+@media (min-width: 992px) {
+  .container {
+    width: 1500px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1500px;
+  }
+}
+
