@@ -70,10 +70,10 @@ $this->params['breadcrumbs'][] = $this->title;
                         ['inputOptions' => ['class' => 'form-control', 'tabindex' => '2']])
                         ->passwordInput()
                         ->label(
-                            Yii::t('user', 'Password')
+                            Yii::t('user', 'Password 密码')
                             . ($module->enablePasswordRecovery ?
                                 ' (' . Html::a(
-                                    Yii::t('user', 'Forgot password?'),
+                                    Yii::t('user', '忘记密码点这里'),
                                     ['/user/recovery/request'],
                                     ['tabindex' => '5']
                                 )
@@ -84,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'rememberMe')->checkbox(['tabindex' => '3']) ?>
 
                 <?= Html::submitButton(
-                    Yii::t('user', 'Sign in'),
+                    Yii::t('user', 'Sign in 登陆'),
                     ['class' => 'btn btn-primary btn-block', 'tabindex' => '4']
                 ) ?>
 
@@ -93,12 +93,12 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <?php if ($module->enableConfirmation): ?>
             <p class="text-center">
-                <?= Html::a(Yii::t('user', 'Didn\'t receive confirmation message?'), ['/user/registration/resend']) ?>
+                <?= Html::a(Yii::t('user', '重新发送确认邮件'), ['/user/registration/resend']) ?>
             </p>
         <?php endif ?>
         <?php if ($module->enableRegistration): ?>
             <p class="text-center">
-                <?= Html::a(Yii::t('user', 'Don\'t have an account? Sign up!'), ['/user/registration/register']) ?>
+                <?= Html::a(Yii::t('user', '没有账号就点这注册吧！'), ['/user/registration/register']) ?>
             </p>
         <?php endif ?>
         <?= Connect::widget([

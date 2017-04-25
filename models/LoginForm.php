@@ -9,9 +9,9 @@ class LoginForm extends BaseLoginForm
     public function attributeLabels()
     {
         return [
-            'login'      => Yii::t('user', 'Email'),
-            'password'   => Yii::t('user', 'Password'),
-            'rememberMe' => Yii::t('user', 'Remember me next time'),
+            'login'      => Yii::t('user', 'Email 电子邮件'),
+            'password'   => Yii::t('user', 'Password 密码'),
+            'rememberMe' => Yii::t('user', 'Remember me next time 记住账号'),
         ];
     }
     

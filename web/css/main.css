@@ -26,6 +26,11 @@ nav strong {
     padding-top: 120px;
 }
 
+.main-row, .foot-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .nav-content{
     padding-top: 10px;
 }
@@ -60,6 +65,7 @@ li.heading {
     width: 1500px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1500px;

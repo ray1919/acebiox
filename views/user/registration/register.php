@@ -11,6 +11,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\captcha\Captcha;
 
 /**
  * @var yii\web\View $this
@@ -34,21 +35,28 @@ $this->params['breadcrumbs'][] = $this->title;
                     'enableClientValidation' => false,
                 ]); ?>
 
-                <?= $form->field($model, 'email') ?>
-
                 <?= $form->field($model, 'username') ?>
+
+                <?= $form->field($model, 'email') ?>
 
                 <?php if ($module->enableGeneratingPassword == false): ?>
                     <?= $form->field($model, 'password')->passwordInput() ?>
                 <?php endif ?>
+                
+                <?= $form->field($model, 'captcha')->widget(Captcha::className(), [
+                    'captchaAction' => ['/site/captcha']
+                ]) ?>
+                
+                <?php echo $form->field($model, 'iagree')->checkbox(['checked' => false, 'required' => true, 'label' => '阅读并同意<a href="">《用户注册协议》</a>与<a href="">《隐私政策》</a>']);
+          ?>
 
-                <?= Html::submitButton(Yii::t('user', 'Sign up'), ['class' => 'btn btn-success btn-block']) ?>
+                <?= Html::submitButton(Yii::t('user', 'Create yout Acebiox account 创建账户'), ['class' => 'btn btn-success btn-block']) ?>
 
                 <?php ActiveForm::end(); ?>
             </div>
         </div>
         <p class="text-center">
-            <?= Html::a(Yii::t('user', 'Already registered? Sign in!'), ['/user/security/login']) ?>
+            <?= Html::a(Yii::t('user', '已有账号请点此登陆'), ['/user/security/login']) ?>
         </p>
     </div>
 </div>
