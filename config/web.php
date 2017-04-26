@@ -33,8 +33,8 @@ $config = [
                 'host' => 'smtp.126.com',
                 'username' => 'acebiox@126.com',
                 'password' => 'sEnDmAil8',
-                'port' => '25',
-                'encryption' => 'tls', // tls
+                'port' => '994',
+                'encryption' => 'ssl', // tls => 25
                             ],
         ],
         'log' => [

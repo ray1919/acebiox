@@ -77,4 +77,4 @@ Grant db access to acebiox\_dbuser, and create acebiox\_db database.
 
 ## License
 
-AcebioX is released under the GNU General Public License. See the bundled [LICENSE.md](LICENSE.md) for details.
+AcebioX is released under the GNU General Public License. See the bundled [LICENSE.txt](LICENSE.txt) for details.
