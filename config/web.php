@@ -4,6 +4,7 @@ $params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'basic',
+    'name' => "境象生物",
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
@@ -65,10 +66,10 @@ $config = [
             'class' => 'dektrium\user\Module',
             'mailer' => [
                 'sender'                => ['acebiox@126.com' => '境象生物'], // or ['no-reply@myhost.com' => 'Sender name']
-                'welcomeSubject'        => 'Welcome subject',
-                'confirmationSubject'   => 'Confirmation subject',
-                'reconfirmationSubject' => 'Email change subject',
-                'recoverySubject'       => 'Recovery subject',
+                'welcomeSubject'        => '您的账号已注册成功',
+                'confirmationSubject'   => '验证您的注册邮箱',
+                'reconfirmationSubject' => '变更您的注册邮箱',
+                'recoverySubject'       => '找回您的账号密码',
                 ],
             'modelMap' => [
                 'RegistrationForm' => 'app\models\RegistrationForm',
