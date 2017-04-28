@@ -58,7 +58,6 @@ $config = [
             'theme' => [
                 'pathMap' => [
                     '@dektrium/user/views' => '@app/views/user',
-                    '@spanjeta/modules/backup/views' => '@app/views/backup',
                 ],
             ],
         ],
@@ -78,10 +77,7 @@ $config = [
                 'LoginForm' => 'app\models\LoginForm',
                 'User' => 'app\models\User',
             ],
-        ],
-        'backup' => [
-            'class' => 'spanjeta\modules\backup\Module',
-        ],
+       ],
     ],
     'defaultRoute' => 'home',
     'params' => $params,

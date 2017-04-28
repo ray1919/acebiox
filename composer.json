@@ -21,8 +21,7 @@
         "bower-asset/font-awesome": ">=4.0.0",
         "dektrium/yii2-user": "^0.9.12",
         "dektrium/yii2-rbac": "1.0.0-alpha@dev",
-        "yiisoft/yii2-debug": "^2.0",
-        "spanjeta/yii2-backup": "*"
+        "yiisoft/yii2-debug": "^2.0"
     },
     "require-dev": {
         "yiisoft/yii2-gii": "~2.0.0",
