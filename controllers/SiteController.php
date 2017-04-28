@@ -51,6 +51,9 @@ class SiteController extends Controller
                 'class' => 'app\models\CaptchaRefreshableAction',
                 'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
             ],
+            'page' => [
+                'class'=>'yii\web\ViewAction',
+            ],
         ];
     }
 

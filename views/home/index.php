@@ -5,11 +5,11 @@ use app\assets\HomeAsset;
 HomeAsset::register($this);
 $this->title = '境象生物 AcebioX';
 ?>
-<div class="row">
+
 <nav class="hidden-xs col-sm-3">
     <ul class="nav nav-pills nav-stacked">
         <li class="heading"><a>Research Products 科研产品</a></li>
-        <li><a href="#">InstantPCR <sup class="fa fa-trademark"></sup> qPCR加样就上机</a></li>
+        <li><a href="site/page?view=InstantPCR">InstantPCR <sup class="fa fa-trademark"></sup> qPCR加样就上机</a></li>
         <li><a href="#">InstantPCRarray <sup class="fa fa-trademark"></sup> 高通量qPCR，加样就上机</a></li>
         <li class="heading"><a>Research Services 科研服务</a></li>
         <li><a href="#">InstantPCRservice <sup class="fa fa-trademark"></sup> qPCR服务，这样就出结果</a></li>

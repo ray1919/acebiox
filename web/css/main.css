@@ -23,7 +23,7 @@ nav strong {
 }
 
 .main-row {
-    padding-top: 120px;
+    padding-top: 10px;
 }
 
 .main-row, .foot-row {
@@ -32,7 +32,7 @@ nav strong {
 }
 
 .nav-content{
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 .navbar {
@@ -47,7 +47,7 @@ nav strong {
     padding: 2px;
 }
 
-nav.navbar-fixed-top {
+nav.navbar-top {
     background-color: white;
     border-bottom: 1px solid #ddd;
 }
