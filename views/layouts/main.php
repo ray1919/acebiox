@@ -86,7 +86,11 @@ AppAsset::register($this);
                         <button type="button" class="btn btn-default btn-md"><a href="/user/settings/profile"><span class="glyphicon glyphicon-user"></span><span class="hidden-xs hidden-sm"> 账 户</span></a></button>
                         <button type="button" class="btn btn-default btn-md"><a href="/user/security/logout" data-method="post"><span class="glyphicon glyphicon-log-out"></span><span class="hidden-xs hidden-sm"> 注 销</span></a></button>
                         <?php endif ?>
+                        <?php if (Yii::$app->user->can('super-boss')): ?>
+                        <button type="button" class="btn btn-default btn-md"><a href="/user/admin"><span class="glyphicon glyphicon-book"></span><span class="hidden-xs hidden-sm"> 管 理</span></a></button>
+                        <?php else: ?>
                         <button type="button" class="btn btn-default btn-md"><a href="/shoppingCart"><span class="glyphicon glyphicon-shopping-cart"></span><span class="hidden-xs hidden-sm"> 购物车</span></a></button>
+                        <?php endif ?>
                     </div>
 
                 </div>

@@ -65,6 +65,7 @@ $config = [
     'modules' => [
         'user' => [
             'class' => 'dektrium\user\Module',
+            'admins' => ['赵锐'],
             'mailer' => [
                 'sender'                => ['acebiox@126.com' => '境象生物'], // or ['no-reply@myhost.com' => 'Sender name']
                 'welcomeSubject'        => '您的账号已注册成功',
@@ -77,7 +78,8 @@ $config = [
                 'LoginForm' => 'app\models\LoginForm',
                 'User' => 'app\models\User',
             ],
-       ],
+        ],
+        'rbac' => 'dektrium\rbac\RbacWebModule',
     ],
     'defaultRoute' => 'home',
     'params' => $params,
