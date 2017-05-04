@@ -3,12 +3,25 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+use app\assets\PageAsset;
 
+PageAsset::register($this);
 $this->title = 'InstantPCR™  qPCR，加样就上机';
 // $this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<h1>InstantPCR™  qPCR，加样就上机</h1>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="/img/page/qpcr1.png" alt="InstantPCR™" width="100%">
+        <div class="carousel-caption">
+            <h1>InstantPCR™<br>qPCR，加样就上机</h1>
+            <button type="button" class="btn btn-info btn-lg">遇见我的目标基因</button>
+        </div>
+    </div>
+  </div>
+</div>
 
 <p>qPCR, 定量PCR, 是目前基因表达定量公认的金标准实验方法。</p>
 
@@ -20,32 +33,111 @@ $this->title = 'InstantPCR™  qPCR，加样就上机';
 
 <p>InstantPCR™ 基因表达定量PCR试剂盒，采用SYBR® Green I实时荧光PCR进行基因表达定量。试剂盒包含验证过的定量PCR引物和 PCR MasterMix, 加入样本就可上机实验。</p>
 
-<h2>简单省时</h2>
-<p>加入样本cDNA就可以上机实验，让您省事省力。</p>
+<div class="row row-content">
+    <div class="col-sm-9">
+    <div class="media">
+      <div class="media-left media-middle">
+        <a href="#">
+          <img class="media-object" src="http://placehold.it/300x200/3498db/f5f5f5/&text=300+x+200" alt="...">
+        </a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading">简单省时</h2>
+        <p>加入样本cDNA就可以上机实验，让您省事省力。</p>
+      </div>
+    </div>
+    </div>
+</div>
 
-<h2>全面覆盖</h2>
-<p>覆盖人，小鼠及其他物种超过30000+基因，您可随意挑选。</p>
+<div class="row row-content">
+    <div class="col-sm-9 col-sm-push-3">
+    <div class="media">
+      <div class="media-body">
+        <h2 class="media-heading">全面覆盖</h2>
+        <p>覆盖人，小鼠及其他物种超过30000+基因，您可随意挑选。</p>
+      </div>
+      <div class="media-right media-middle">
+        <a href="#">
+          <img class="media-object" src="http://placehold.it/300x200/3498db/f5f5f5/&text=300+x+200" alt="...">
+        </a>
+      </div>
+    </div>
+    </div>
+</div>
 
-<h2>卓越品质</h2>
-<p>每个基因引物均经过严格的实验验证以及生产质量控制，保障您理想的实验结果。</p>
+<div class="row row-content">
+    <div class="col-sm-9">
+    <div class="media">
+      <div class="media-left media-middle">
+        <a href="#">
+          <img class="media-object" src="http://placehold.it/300x200/3498db/f5f5f5/&text=300+x+200" alt="...">
+        </a>
+      </div>
+      <div class="media-body">
+        <h2 class="media-heading">卓越品质</h2>
+        <p>每个基因引物均经过严格的实验验证以及生产质量控制，保障您理想的实验结果。</p>
+      </div>
+    </div>
+    </div>
+</div>
 
-<h2>经济节约</h2>
-<p>1/10传统实验方法的成本，节约您的科研经费。 </p>
+<div class="row row-content">
+    <div class="col-sm-9 col-sm-push-3">
+    <div class="media">
+      <div class="media-body">
+        <h2 class="media-heading">经济节约</h2>
+        <p>1/10传统实验方法的成本，节约您的科研经费。</p>
+      </div>
+      <div class="media-right media-middle">
+        <a href="#">
+          <img class="media-object" src="http://placehold.it/300x200/3498db/f5f5f5/&text=300+x+200" alt="...">
+        </a>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class="row row-content">
+    <div class="col-sm-7">
+        <p>InstantPCR™，qPCR，加样就上机，快速准确获得目标基因表达定量信息。</p>
+    </div>
+    <div class="col-sm-5">
+        <p><button type="button" class="btn btn-info btn-lg">遇见我的目标基因</button></p>
+    </div>
+</div>
+
 
 <h2>用户分享评论</h2>
 
-<p>“Acebiox的InstantPCR™我们已经用了三年，节省了我们大量的实验时间，也大大降低了我们的实验成本”</p>
-<span>中国科学院上海生物化学与细胞生物学研究所</span>
+<div class="well">
+    <blockquote>
+        <p>“Acebiox的InstantPCR™我们已经用了三年，节省了我们大量的实验时间，也大大降低了我们的实验成本。”</p>
+        <footer><span>中国科学院上海生物化学与细胞生物学研究所</span></footer>
+    </blockquote>
+</div>
 
-<p>“InstantPCR™试剂盒，加上我们准备好的cDNA样本就可以上机实验，不用担心引物不好用的问题，确实很方便”</p>
-<span>香港大学医学院</span>
+<div class="well">
+    <blockquote>
+        <p>“InstantPCR™试剂盒，加上我们准备好的cDNA样本就可以上机实验，不用担心引物不好用的问题，确实很方便。”</p>
+        <footer><span>香港大学医学院</span></footer>
+    </blockquote>
+</div>
 
-<p>“我们实验室一直用境象生物的InstantPCR™试剂盒做定量PCR, 实验一直都很顺利，产品到货也挺快的，价格也不贵”</p>
-<span>武汉大学生命科学学院</span>
+<div class="well">
+    <blockquote>
+        <p>“我们实验室一直用境象生物的InstantPCR™试剂盒做定量PCR, 实验一直都很顺利，产品到货也挺快的，价格也不贵。”</p>
+        <footer><span>武汉大学生命科学学院</span></footer>
+    </blockquote>
+</div>
 
-<br>
-<button type="button" class="btn btn-info btn-sm">分享您的使用心得</button>
 
+<div class="row row-content">
+    <div class="col-sm-3 col-sm-push-6">
+        <button type="button" class="btn btn-info btn-lg">分享我的产品故事</button>
+    </div>
+</div>
+
+<div class="hidden row row-content">
 <form class="form search-form" role="search">
     <div class="input-group">
         <input type="text" class="form-control" placeholder="Search your gene" name="srch-term" id="srch-term">
@@ -58,3 +150,6 @@ $this->title = 'InstantPCR™  qPCR，加样就上机';
         <label class="col-sm-3 col-sm-push-7 col-form-label">查找您的目标基因</label>
     </div>
 </form>
+</div>
+
+<br><br><br>

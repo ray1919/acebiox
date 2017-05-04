@@ -6,6 +6,11 @@
     padding-top: 20px;
 }
 
+.footer p {
+    display: block;
+    text-align: center;
+}
+
 .footer ul li{
     border: none;
     background-color: inherit;
@@ -24,6 +29,8 @@ nav strong {
 
 .main-row {
     padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*nav.row, .main-row, .foot-row {

@@ -1,0 +1,24 @@
+.main-row p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.main-row h2 {
+    padding: 20px;
+}
+
+div.row-content {
+    padding-top: 20px;
+}
+
+.main-row .well {
+    background-color: transparent;
+}
+
+.main-row .well footer {
+    padding-left: 40%;
+}
+
+.main-row .well p {
+    padding-top: 0px;
+}

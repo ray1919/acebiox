@@ -161,7 +161,7 @@ AppAsset::register($this);
             <div class="col-xs-6 col-sm-3">
                 <div class="row">
                      <div class="col-sm-12 nav-content">
-                        <strong><i class="hidden-xs">免费人工电话 </i><span class="glyphicon glyphicon-phone-alt"></span>400-12355678</strong>
+                        <strong><span class="hidden-xs">免费人工电话 </span>400-1235-5678</strong>
                     </div>
                 </div>
                 <div class="row">
@@ -206,14 +206,7 @@ AppAsset::register($this);
 <footer class="footer">
     <div class="container">
         <div class="row foot-row">
-            <div class="col-xs-12 col-sm-3">
-                <p><span class="fa fa-map-marker"></span> 上海市奉贤区金汇镇金斗路399号6栋</p>
-                <p><span class="fa fa-envelope"></span> service@acbiox.cn</p>
-                <p>Copyright <span class="fa fa-copyright"></span>2015-2017 All Rights Reserved</p>
-                <p>版权所有：上海境象生物科技有限公司</p>
-                <p><span class="fa fa-paperclip"></span> 苏ICP备15007085号</p>
-            </div>
-            <div class="col-xs-4 col-sm-3">
+            <div class="col-xs-4 col-sm-4">
                 <ul class="list-group">
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Get to know us </span>了解我们</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">About AcebioX </span>关于我们</a></li>
@@ -223,7 +216,7 @@ AppAsset::register($this);
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Responsbility </span>社会责任</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-3">
+            <div class="col-xs-4 col-sm-4">
                 <ul>
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Cooprate with us </span>与我合作</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Business </span>商务合作</a></li>
@@ -231,15 +224,20 @@ AppAsset::register($this);
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Advice </span>意见/建议</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-3">
+            <div class="col-xs-4 col-sm-4">
                 <ul>
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Let us help you </span>让我们帮助您</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Your Account </span>账户</a></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Shipping policies </span>运费政策</a></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Returns &amp; Replacement </span>退换货政策</a></li>
-                    <li class="list-group-item"><a href="#"><span class="hidden-xs">Help </span>赞助</a></li>
+                    <li class="list-group-item"><a href="#"><span class="hidden-xs">Help </span>帮助</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+            <p><span class="fa fa-map-marker"></span> 上海市奉贤区金汇镇金斗路399号金斗产业园6栋-7栋，邮箱：acebiox@acebiox.cn</p>
+            <p>Copyright <span class="fa fa-copyright"></span>2017 Acebiox All Rights Reserved，版权所有：上海境象生物科技有限公司</p>
+            <p>沪ICP备17017100</p>
         </div>
 
     </div>

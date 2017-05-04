@@ -9,10 +9,10 @@ $this->title = '境象生物 AcebioX';
 <nav class="hidden-xs col-sm-3">
     <ul class="nav nav-pills nav-stacked">
         <li class="heading"><a>Research Products 科研产品</a></li>
-        <li><a href="site/page?view=InstantPCR">InstantPCR <sup class="fa fa-trademark"></sup> qPCR加样就上机</a></li>
+        <li><a href="site/page?view=InstantPCR">InstantPCR <sup class="fa fa-trademark"></sup> qPCR，加样就上机</a></li>
         <li><a href="#">InstantPCRarray <sup class="fa fa-trademark"></sup> 高通量qPCR，加样就上机</a></li>
         <li class="heading"><a>Research Services 科研服务</a></li>
-        <li><a href="#">InstantPCRservice <sup class="fa fa-trademark"></sup> qPCR服务，这样就出结果</a></li>
+        <li><a href="#">InstantPCRservice <sup class="fa fa-trademark"></sup> qPCR服务，送样就出结果</a></li>
         <li><a href="#">AceSNP <sup class="fa fa-trademark"></sup> SNP基因分型，最优性价比</a></li>
         <li><a href="#">More Research Services 更多科研产品与服务</a></li>
         <li class="heading"><a>Application Products 应用产品</a></li>
@@ -125,7 +125,7 @@ $this->title = '境象生物 AcebioX';
             <li>
                 <div class="image_title">
                     <a href="#"><h4>InstantPCRservice<sup class="fa fa-trademark"></sup></h4>
-                        <p>qPCR服务，这样就出结果</p>
+                        <p>qPCR服务，送样就出结果</p>
                     </a>
                 </div>
                 <a href="#">
@@ -135,7 +135,7 @@ $this->title = '境象生物 AcebioX';
             <li>
                 <div class="image_title">
                     <a href="#"><h4>AceSNP<sup class="fa fa-trademark"></sup></h4>
-                        <p>SNP分型，行业最优性价比</p>
+                        <p>SNP分型，最优性价比</p>
                     </a>
                 </div>
                 <a href="#">
@@ -150,7 +150,7 @@ $this->title = '境象生物 AcebioX';
     <div class="row">
         <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
             <h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
-            <p>qPCR 加样就上机</p>
+            <p>qPCR，加样就上机</p>
         </div>
         <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
             <h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
@@ -158,11 +158,11 @@ $this->title = '境象生物 AcebioX';
         </div>
         <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
             <h4>InstantPCRservice<sup class="fa fa-trademark"></sup></h4>
-            <p>qPCR服务 这样就出结果</p>
+            <p>qPCR服务 送样就出结果</p>
         </div>
         <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
             <h4>AceSNP<sup class="fa fa-trademark"></sup></h4>
-            <p>SNP分型，行业最优性价比</p>
+            <p>SNP分型，最优性价比</p>
         </div>
     </div>
 

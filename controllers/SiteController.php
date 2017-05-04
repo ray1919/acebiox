@@ -38,10 +38,10 @@ class SiteController extends Controller
 			        [
 			            'actions' => ['about'],
 			            'allow' => true,
-			            'roles' => ['super-boss'],
+			            'roles' => ['super-boss','admin'],
 			        ],
 			        [
-			            'actions' => ['contact','error'],
+			            'actions' => ['contact','error', 'page'],
 			            'allow' => true,
 			            'roles' => ['?', '@', 'admin', 'super-boss'],
 			        ],
