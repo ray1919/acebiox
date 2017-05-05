@@ -111,7 +111,7 @@ $this->title = 'InstantPCR™  qPCR，加样就上机';
 
 <div class="well">
     <blockquote>
-        <p>“Acebiox的InstantPCR™我们已经用了三年，节省了我们大量的实验时间，也大大降低了我们的实验成本。”</p>
+        <p>“Acebiox的InstantPCR™用起来很省事，节省了我们大量的实验时间，也大大降低了我们的实验成本。”</p>
         <footer><span>中国科学院上海生物化学与细胞生物学研究所</span></footer>
     </blockquote>
 </div>
@@ -125,7 +125,7 @@ $this->title = 'InstantPCR™  qPCR，加样就上机';
 
 <div class="well">
     <blockquote>
-        <p>“我们实验室一直用境象生物的InstantPCR™试剂盒做定量PCR, 实验一直都很顺利，产品到货也挺快的，价格也不贵。”</p>
+        <p>“我们实验室一直用InstantPCR™试剂盒做定量PCR, 实验一直都很顺利，产品到货也挺快的，价格也不贵。”</p>
         <footer><span>武汉大学生命科学学院</span></footer>
     </blockquote>
 </div>

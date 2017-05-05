@@ -206,7 +206,7 @@ AppAsset::register($this);
 <footer class="footer">
     <div class="container">
         <div class="row foot-row">
-            <div class="col-xs-4 col-sm-4">
+            <div class="col-xs-4 col-sm-3 col-sm-push-1">
                 <ul class="list-group">
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Get to know us </span>了解我们</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">About AcebioX </span>关于我们</a></li>
@@ -216,7 +216,7 @@ AppAsset::register($this);
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Responsbility </span>社会责任</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-4">
+            <div class="col-xs-4 col-sm-3 col-sm-push-1">
                 <ul>
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Cooprate with us </span>与我合作</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Business </span>商务合作</a></li>
@@ -224,7 +224,7 @@ AppAsset::register($this);
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Advice </span>意见/建议</a></li>
                 </ul>
             </div>
-            <div class="col-xs-4 col-sm-4">
+            <div class="col-xs-4 col-sm-3 col-sm-push-1">
                 <ul>
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Let us help you </span>让我们帮助您</strong></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Your Account </span>账户</a></li>
@@ -237,7 +237,7 @@ AppAsset::register($this);
         <div class="col-xs-12 col-sm-12">
             <p><span class="fa fa-map-marker"></span> 上海市奉贤区金汇镇金斗路399号金斗产业园6栋-7栋，邮箱：acebiox@acebiox.cn</p>
             <p>Copyright <span class="fa fa-copyright"></span>2017 Acebiox All Rights Reserved，版权所有：上海境象生物科技有限公司</p>
-            <p>沪ICP备17017100</p>
+            <p><a href="http://www.miitbeian.gov.cn/">沪ICP备17017100</a></p>
         </div>
 
     </div>
