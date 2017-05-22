@@ -9,8 +9,8 @@ $this->title = '境象生物 AcebioX';
 <nav class="hidden-xs col-sm-3">
     <ul class="nav nav-pills nav-stacked">
         <li class="heading"><a>Research Products 科研产品</a></li>
-        <li><a href="site/page?view=InstantPCR">InstantPCR <sup class="fa fa-trademark"></sup> qPCR，加样就上机</a></li>
-        <li><a href="#">InstantPCRarray <sup class="fa fa-trademark"></sup> 高通量qPCR，加样就上机</a></li>
+        <li><a href="/qpcr-order">InstantPCR <sup class="fa fa-trademark"></sup> qPCR，加样就上机</a></li>
+        <li><a href="/site/page?view=InstantPCRarray">InstantPCRarray <sup class="fa fa-trademark"></sup> 高通量qPCR，加样就上机</a></li>
         <li class="heading"><a>Research Services 科研服务</a></li>
         <li><a href="#">InstantPCRservice <sup class="fa fa-trademark"></sup> qPCR服务，送样就出结果</a></li>
         <li><a href="#">AceSNP <sup class="fa fa-trademark"></sup> SNP基因分型，最优性价比</a></li>
@@ -104,21 +104,21 @@ $this->title = '境象生物 AcebioX';
         <ul>
             <li>
                 <div class="image_title">
-                    <a href="#"><h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
+                    <a href="/qpcr-order"><h4>InstantPCR<sup class="fa fa-trademark"></sup></h4>
                         <p>qPCR，加样就上机</p>
                     </a>
                 </div>
-                <a href="#">
+                <a href="/qpcr-order">
                     <img src="/img/home/index/slider1.jpg"/>
                 </a>
             </li>
             <li>
                 <div class="image_title">
-                    <a href="#"><h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
+                    <a href="/site/page?view=InstantPCRarray"><h4>InstantPCRarray<sup class="fa fa-trademark"></sup></h4>
                         <p>高通量qPCR，加样就上机</p>
                     </a>
                 </div>
-                <a href="#">
+                <a href="/site/page?view=InstantPCRarray">
                     <img src="/img/home/index/slider2.jpg"/>
                 </a>
             </li>

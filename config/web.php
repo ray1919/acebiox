@@ -28,6 +28,7 @@ $config = [
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
             'useFileTransport' => false,
+            'viewPath' => '@app/views/mail',
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
                 'host' => 'smtp.126.com',

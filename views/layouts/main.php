@@ -39,8 +39,7 @@ AppAsset::register($this);
             <div class="col-xs-6 col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nav-content">
-                        <a href="/"><img src="/img/home/logo-3.gif " height="45px"></a>
-                        <b class="hidden-xs text-nowrap">Gene Analysis Expert</b>
+                        <a href="/"><img src="/img/home/logo-4.png " height="51px"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -152,6 +151,7 @@ AppAsset::register($this);
                                     <li><a href="#">Health 健康</a></li>
                                     <li><a href="#">Resource 资源</a></li>
                                     <li><a href="#">Activity 活动</a></li>
+                                    <li><a href="/site/page?view=aboutus">About Us 关于</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -192,7 +192,7 @@ AppAsset::register($this);
 </nav>
 
     <div class="container">
-        <div class="row main-row">
+        <div class="main-row">
 
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -209,7 +209,7 @@ AppAsset::register($this);
             <div class="col-xs-4 col-sm-3 col-sm-push-1">
                 <ul class="list-group">
                     <li class="list-group-item disabled"><strong><span class="hidden-xs">Get to know us </span>了解我们</strong></li>
-                    <li class="list-group-item"><a href="#"><span class="hidden-xs">About AcebioX </span>关于我们</a></li>
+                    <li class="list-group-item"><a href="/site/page?view=aboutus"><span class="hidden-xs">About AcebioX </span>关于我们</a></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Career </span>职业机会</a></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Company News </span>公司新闻</a></li>
                     <li class="list-group-item"><a href="#"><span class="hidden-xs">Contact us </span>联系我们</a></li>

@@ -63,10 +63,6 @@ li.heading {
     background-color: antiquewhite;
 }
 
-#loginModal label {
-    font-weight: normal !important;
-}
-
 @media (min-width: 992px) {
   .container {
     width: 1500px;

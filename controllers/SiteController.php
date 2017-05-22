@@ -41,7 +41,7 @@ class SiteController extends Controller
 			            'roles' => ['super-boss','admin'],
 			        ],
 			        [
-			            'actions' => ['contact','error', 'page'],
+			            'actions' => ['contact','error', 'page', 'captcha'],
 			            'allow' => true,
 			            'roles' => ['?', '@', 'admin', 'super-boss'],
 			        ],
